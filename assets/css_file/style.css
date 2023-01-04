@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #474747;
+}
+
+#icon-prymary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    height: 64px;
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    border: none;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* header and navigation bar */
+.header {
+    background-image: url(/assets/images/header_bg.png), url(/assets/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-icon {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+/* header banner */
+.banner {
+    display: flex;
+    margin: 3px 140px;
+}
+
+.text-banner {
+    margin-top: 200px;
+}
+
+.text-sub-tittle {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.text-tittle {
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 16px;
+}
+
+.text-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 35px;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* about section styles */
+.about {
+    margin-top: 130px;
+    padding: 131px 155px;
+    text-align: center;
+    background-color: #fff8f3;
+
+}
+
+.sec-title {
+
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 30px;
+
+}
+
+.sec-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+
+}
+
+.about-info-description {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.about-text {
+    font-size: 20px;
+    font-weight: 700;
+    color: #757575;
+}
+
+.about-text-description {
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+
+/* my skills styles */
+.skills {
+    display: flex;
+    margin-top: 50px;
+    gap: 57px;
+}
+
+.skill-des-title {
+    margin-top: 130px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.skill-des-description {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.javasc,
+.react,
+.mongodb,
+.nodejs {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+
+}
+
+.jv-title,
+.re-title,
+.mongo-title,
+.nod-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+}
+
+.jv-description,
+.nod-description,
+.re-description,
+.mongo-description {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* resumi styles */
+.re-description {
+    display: flex;
+    gap: 70px;
+}
+
+.resumi-info {
+    margin-top: 130px;
+}
+
+.re-inf-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+}
+
+.re-description {
+    margin-top: 90px;
+}
+
+.big-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.re-myedu-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+
+}
+
+.re-myedu-sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.re-myedu-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+
+}
+
+.res-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* contact styles */
+.contact {
+    background: #FFF8F3;
+    margin-top: 100px;
+}
+
+.con-des {
+    display: flex;
+    gap: 100px;
+    padding: 130px 140px;
+
+}
+
+.con-des-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.con-des-des {
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.con-ms-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.con-msg input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    margin-top: 24px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
