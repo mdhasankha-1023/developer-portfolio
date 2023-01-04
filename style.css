@@ -27,7 +27,7 @@ nav li a {
 
 /* header and navigation bar */
 .header {
-    background-image: url(/assets/images/header_bg.png), url(/assets/images/developer.png);
+    background-image: url(assets/images/header_bg.png), url(assets/images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, bottom left;
 }
